@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body{
+    background-color: black;
+}
+.border {
+    border: 1px solid transparent;
+    border-radius: 1rem;
+
+}
+
+.container {
+    display: flex;
+    margin : 5px;
+}
+
+.homebox {
+    height: 20vh; /* 30vh converted to rem */
+}
+
+.library {
+    height: 80vh; /* 70vh converted to rem */
+}
+
+.left {
+    width: 20vw; /* 25vw converted to rem */
+    margin-right: 0.3125rem; /* 5px converted to rem */
+}
+
+.right {
+    width: 80vw; /* 75vw converted to rem */
+}
+
+.homebox {
+    padding-left: 1.25rem; /* 20px converted to rem */
+    margin-bottom: 0.3125rem; /* 5px converted to rem */
+}
+
+.logo {
+    margin: 1.25rem;
+    margin-left: 0;
+    margin-bottom: 0.9375rem; /* 15px converted to rem */
+}
+
+.homebox li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem; /* 20px converted to rem */
+    margin-bottom: 0.625rem; /* 10px converted to rem */
+}
+
+ul img {
+    height: 1.25rem; /* 20px converted to rem */
+}
+
+.fa-solid {
+    font-size: 1.25rem; /* 20px converted to rem */
+}
+
+.library-text {
+    display: flex;
+    margin: 1.25rem;
+    gap: 10rem; /* 160px converted to rem */
+}
+
+.library-text li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem; /* 10px converted to rem */
+}
+
+.icon {
+    font-size: 0.9375rem; /* 15px converted to rem */
+}
+.invert{
+    filter: invert(1);
+}
+.bg{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.footer-a a {
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer {
+    position: absolute;
+    bottom: 100px;
+    width: 25vw;
+}
+
+.footer-a {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin: 1.25rem;
+    padding: 25px;
+    padding-left: 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #121212;
+    padding: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header i{
+    font-size: 12px;
+    margin: 5px;
+}
+.i{
+    border-radius: 50%;
+    background-color: black;
+    margin:  0 5px;
+}
+.btn1{
+    background-color: transparent;
+    color: grey;
+    border: none;
+}
+.btn2{
+    padding: 10px 30px;
+    border-radius: 1.5rem;
+    background-color: white;
+    color: black;
+}
+button{
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.spotifyPlaylists{
+    padding: 8px;
+    background-color: #1a1919;
+}
+h2{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px ;
+    padding-left: 10px;
+}
+.card{
+    width: 150px;
+    padding: 10px;
+    border-radius: 1rem;
+    position: relative;
+    
+}
+.card img{
+    width:100%;
+    object-fit: contain;
+    border-radius: 1rem;
+    padding-bottom: 5px;
+}
+.card h2{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.card p{
+    font-size: 12px;
+    color: gray;
+}
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.play{
+    position: absolute;
+    top:110px;
+    right: 10px;
+}
+
+
+
